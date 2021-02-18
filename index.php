@@ -8,7 +8,7 @@ exit;
 }
 echo "ini baru bisa bwang mwantap"."<br>" . PHP_EOL;
 echo "Info: " . mysqli_get_host_info($link) ."<br>" . PHP_EOL;
-$sql = "SELECT COUNT(*) FROM Trucorp.users";
+$sql = "SELECT * FROM Trucorp.users";
 $result = $link->query($sql);
 if($result->num_rows > 0){
 echo "Hasil : " . $result;
