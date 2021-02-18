@@ -11,7 +11,7 @@ echo "Info: " . mysqli_get_host_info($link) ."<br>" . PHP_EOL;
 $sql = "SELECT COUNT(*) FROM Trucorp.users";
 $result = $link->query($sql);
 if($result->num_rows > 0){
-echo "Hasil: " . $result;
+echo "Hasil : " . $result;
 }
 else {
 echo "gak ada data bwang";
